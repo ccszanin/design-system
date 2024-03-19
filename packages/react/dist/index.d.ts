@@ -1,2 +1,5 @@
+import * as react from 'react';
 
-export {  }
+declare function App(): react.JSX.Element;
+
+export { App };

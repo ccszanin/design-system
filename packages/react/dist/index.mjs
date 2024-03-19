@@ -16,5 +16,10 @@ var colors = {
   ignite900: "#00291D"
 };
 
-// src/index.ts
-console.log(colors);
+// src/index.tsx
+function App() {
+  return /* @__PURE__ */ React.createElement("h1", { style: { color: colors.ignite300 } }, "Hello world");
+}
+export {
+  App
+};
