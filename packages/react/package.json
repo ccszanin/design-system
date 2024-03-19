@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types":"./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
     "dev": "tsup  src/index.tsx --format esm,cjs --dts --external react --watch",
@@ -14,12 +14,15 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config":"*",
+    "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
-    "@ignite-ui/eslint-config":"*",
+    "@ignite-ui/ts-config": "*",
     "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }
