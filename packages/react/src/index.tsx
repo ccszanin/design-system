@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { styled } from "./styles"
+import React from 'react'
 
 const Button = styled('button',{
   fontFamily:'$default',
